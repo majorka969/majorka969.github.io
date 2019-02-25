@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<title>Регистрация</title>
+</head>
+<body>
+<div class="form-wrap">
+    <h1>Регистрация</h1>
+  </div>
+  <form method="post" action="form.php">
+    <div>
+      <label for="name">Фамилия</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+      <label for="name">Имя</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+      <label for="name">Отчество</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+      <label for="name">Адрес</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+      <label for="name">Дата рождения</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+      <label for="name">Номер телефона</label>
+      <input type="text" name="name" required>
+    </div>
+    <div class="radio">
+      <span>Пол</span>
+      <label>
+        <input type="radio" name="sex" value="мужской">мужской
+        <div class="radio-control male"></div>
+        <input type="radio" name="sex" value="женский">женский
+        <div class="radio-control female"></div>
+      </label>
+    </div>
+     <label for="country">Город</label>
+      <select name="country">
+        <option>Выберите город</option>
+        <option value="Кременчуг">Кременчуг</option> 
+        <option value="Киев">Киев</option> 
+        <option value="Львов">Львов</option> 
+        <option value="Кривой рог">Кривой рог</option> 
+        <option value="Харьков">Харьков</option> 
+        <option value="Одесса">Одесса</option> 
+        <option value="Полтава">Полтава</option> 
+      </select> 
+      <div class="select-arrow"></div> 
+    </div> 
+    <div>
+      <label for="name">(если городской поставь галочку)</label>
+      <input type="checkbox" checked>
+    </div>
+
+      <label for="name">оценка по украинскому языку</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+    	<div>
+      <label for="name">оценка по математике</label>
+      <input type="text" name="name" required>
+    </div>
+    <div>
+     <label for="email">E-mail</label>
+      <input type="email" name="email" required>
+    </div>
+     <div>
+     	 <label for="name">фото</label>
+     	<input type="file">
+    </div>
+      <div class="select-arrow"></div> 
+    </div> 
+    <button type="submit">Отправить</button> 
+    <div>
+     
+    <div>
+  </form> 
+</div>
+</body>
+</html>
